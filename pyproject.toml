@@ -1,0 +1,15 @@
+[tool.ruff]
+
+exclude = [
+    ".git",
+    ".ipynb_checkpoints",
+    ".ruff_cache",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+]
+
+line-length = 100
+indent-width = 4
+
+target-version = "py312"
